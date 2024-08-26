@@ -1,0 +1,18 @@
+(footprint "CARD_EDGE_PADS-1X2" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (property "Sheetfile" "diff-probe.kicad_sch")
+  (property "Sheetname" "")
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp a62b13c3-0064-425c-bf41-6e4232d9a88c)
+  )
+  (fp_text value "HEADER-1X2CARD-EDGE" (at 0 0) (layer "F.SilkS") hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp d7f84ae3-1165-4a9c-bbeb-e497dbf39708)
+  )
+  (pad "P$1" smd rect (at -1.27 0 270) (size 3 1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0508) (tstamp f62c774f-c956-4306-ae49-2c6059ec071f))
+  (pad "P$2" smd rect (at 1.27 0 270) (size 3 1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0508) (tstamp e0df1d16-0358-4fbf-aa84-69f78b8c926c))
+)

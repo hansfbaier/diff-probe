@@ -1,0 +1,92 @@
+https://www.eevblog.com/forum/testgear/lecroy-probus-reverse-engineering/msg2176181/#msg2176181
+
+Let's look at a simple example for the AP100 probe. EEPROM contents are very short:
+01 08 00 41 50 31 30 30 11 06 00 00 A0 40 12 06 AE 47 81 3F 36 03 00 38 07 31 30 30 EA 0A
+
+Begin parsing by looking at the first two bytes, 01 08. This is type 01 (model name) and size 08:
+01 08 00 41 50 31 30 30 11 06 00 00 A0 40 12 06 AE 47 81 3F 36 03 00 38 07 31 30 30 EA 0A
+
+So the first packet consists of the first 0x08 bytes:
+01 08 00 41 50 31 30 30
+The next packet is type 0x011, 0x06 bytes:
+11 06 00 00 A0 40
+Then type 0x12, also 0x06 bytes:
+12 06 AE 47 81 3F
+Then type 0x36, 0x03 bytes long:
+36 03 00
+And finally it ends with type 0x38, 0x07 bytes:
+38 07 31 30 30 EA 0A
+
+As mentioned before, packet type 0x01 is the probe model name. It begins with a null byte for some reason (all values of this byte seem to be ignored) and then comes the name in ASCII. (41 50 31 30 30 = AP100)
+Type 0x04 is the probe serial number. Sometimes it is in ASCII (AP022) and other times the hex values of the data are displayed (AP021).
+Type 0x38 is an ASCII string for the coupling label, though it appears to be overridden by hard-coded firmware values (you can change the value in the EEPROM but it doesn't reflect in the GUI). It seems to always be terminated with a line feed (0x0A).
+
+There are many other packet types but I am so far unable to determine what their significance is.
+
+Type Code	Meaning	Storage Type
+0x01	Probe model name	ASCII with a leading null
+0x04	Serial number	ASCII or sometimes decimal
+0x11	Attenuation attribute	Single point precision float, reversed bytes
+0x38	Coupling	ASCII with line feed terminator
+0x41	Delay attribute	Single point precision float, reversed bytes
+0x62	BW in GHz (newer probes like ZD200)	Single point precision float, reversed bytes
+
+Attached is a zip of EEPROM data for 139 different probe types. Maybe somebody will join me in trying to decode the many other packet types.
+
+PP090 is a 75 Ohm adapter so it's pretty basic and I guess that's why the EEPROM is a perfect match. Let's break it down:
+
+01 08 00 50 50 30 39 30: 0x01 = probe model name, 8 byte packet, 0x00 dummy byte, ASCII "PP090"
+11 06 00 00 00 40: 0x11 = Attenuation attribute 6 byte packet, data = 0x00000040 = divide by 2
+36 03 00: 0x36 = Unknown 3 byte packet, data = 0x00
+38 06 37 35 EA 0A: 0x38 = Coupling options, 6 byte packet, ASCII "75" Ohm symbol extended ASCII), line feed
+41 06 3F E3 7C 2F: 0x41 =Delay (single precision float, 230ps)
+
+Unfortunately not a very exciting EEPROM. There's no serial number (0x04) and likely no cal or anything else.
+
+I have 2 AP022's and the only difference between them is one byte of the serial number.
+It could very well be that some of the EEPROM data is only parsed by the older VxWorks scopes and X-Stream only pays attention to the model name and serial number.
+
+OK thanks to Mechatrommer's PP090 I've noticed the significance of another packet type:
+
+0x11 = Probe attenuation attribute.
+
+In the PP090 it's divide by 2 and the data is 11 06 00 00 00 40 so 0x00000040 = divide by 2.
+In the AP100 it's divide by 5 and the data is 11 06 00 00 A0 40 so 0x0000a040 = divide by 5.
+D1305 is divide by 2.828, data is 11 06 81 04 35 40 so 0x81043540 is divide by 2.828.
+D1330 11 06 C8 A7 D8 40 divide by 6.770
+CP015 11 06 00 00 20 41 is divide by 10 when copied into AP100
+
+This is a single-precision float:
+2 = 0x40000000
+5 = 0x40A00000
+10 = 0x41200000
+0x40350481 = 2.82839989662
+
+And another:
+0x41 = Delay attribute, single precision float LE
+
+
+For those interested, here is how control of the input mode and offset is performed:
+
+( I programmed the EEPROM for AP020 and used a preprocessor that acknowledges all transactions. )
+1. The quality of the contacts in the connector matters, poor contact leads to a transition to strange modes (a red bar “Processing ...” appears. When I realized this, the work became predictable. EEPROM address - 50h (all address inputs must be at zero)
+
+2. The binary images on the Internet contain only the valid data. The default programmer leaves FF in an unused area. It confuses the firmware. All free memory must be filled with zeros.
+
+3. The oscilloscope reads entire EEPROM sequentially, regardless of the size of the data block, in one pass. Then it recognizes the probe, and switches the input mode (in my case, DC coupling is turned on and 50 ohms is not turned on - perhaps the resistor in the probe, although in the picture you can see only the place for its installation.
+
+4. When you rotate the offset knob, the oscilloscope sends the following commands to two PCF8574 port expanders - at addresses 0x23 (data port) and 0x21 (command port). First, the most significant byte of the offset is written to the data port (for positive numbers, the most significant bit = 1, for negative numbers = 0). Then bit 0x01 is set in the command port (latch new data in 74573), after that the bit is cleared (data remains in 74573) and then the low byte is written to the data port. Perhaps this leads to a small glitch at the DAC output, but they are OK with it.
+
+5. If these transactions are not acknowledged, the oscilloscope makes 4-6 recording attempts and stops.
+
+6. For example, 0x8000 = offset = 0, 0x7FFE = offset = -2mV, 0x8002 = offset = + 2mV. In this case, the DAC code is likely to scale, since for the sequence 1,2,3,4,5,6mV codes 0x8002,0x8004,0x8006, 0x8007, 0x8009, 0x800A. But I am not 100% positive in scaling.
+
+7. When switching the vertical scale and if the offset is not zero, the oscilloscope sends the correspondingly changed offset - that is, on the 1mV range, the 10mV offset will be replaced by 50mV when switching to 5mV. If offset was zero, the transaction is not done as it stays zero.
+
+8. Depending on the input mode, the command port bits have the following meaning - 0x10 - when set, the DC coupled input. 0x40 = when set, the input is AC coupled (on probes, is this?) When both bits are cleared, the input must be Grounded. That is, switching the mode and writing a new offset corresponds to 0x23 = MSB, 0x21 = 0x11, 0x21 = 0x10, 0x23 = LSB for DC coupled, 0x23 = MSB, 0x21 = 0x01, 0x21 = 0x00, 0x23 = LSB for GROUND, 0x23 = MSB, 0x21 = 0x41, 0x21 = 0x40, 0x23 = LSB for AC coupled. The relay may be switching Ground.
+
+9. I did not find the purpose of the remaining bits in the control port, other buttons and knobs do not affect the samples.
+
+The schematic which illustrates the concept of control in case of AP020,AP022. The DAC appears in complementary offset binary.
+
+Other bit settings may appear needed for other probes. It looks that WavePro recognizes newer probes (ZDxxx, ZSxxx) and lists their names, but does not send offset data to probes on I2C. Newer scopes should be able to do that.

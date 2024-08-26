@@ -1,0 +1,38 @@
+HyperLynx Field Solver
+Design File: "C:\Users\RWache\OneDrive - Rockwell Automation, Inc\Simulation tools\kicad_proj\diff-probe\kicad\FreeCad\diff-probe.hyp"
+Report File: "C:\Users\RWache\OneDrive - Rockwell Automation, Inc\Simulation tools\kicad_proj\diff-probe\kicad\FreeCad\Coupling0008.TXT"
+
+---------------------- Electrical Data ---------------------
+
+Z0    =   82.623 ohms
+Delay =    1.643 ps
+L     =    0.136 nH
+C     =    0.020 pF
+Rs    =   0.8228 mOhm/m-sqrt(Hz)
+Gd    =   6.4493 pS/m-Hz
+
+------------------------ Physical Input Data -----------------------
+
+Coupling Region
+ Name:    Coupling0008
+ Length:  0.012in
+
+Position, Width, and Thickness are in English Units (mils).
+The X-Position is relative to the center of the trace.
+
+Field Solver Traces
+               Matrix
+               Index   Layer   X-Pos    Width  Comment
+/POSIN          1:1    F.Cu     0.00    15.75  
+
+Field Solver Ground Segments
+               Index  Layer   X-Pos    Width   Comment
+GND              1   F.Cu    -15.74     0.00   Left half plane
+
+Field Solver Stackup 
+ Type      Thickness Dielectric Layer 
+ Plane       1.38        1.00     F.Cu  
+  Diel      59.45        4.50
+ Plane       1.38        1.00     B.Cu  
+
+--------------------------------------------------------------------

@@ -1,0 +1,9 @@
+ALL_MODELS 
+MODEL_ASSOCIATIONS
+Part Number,Ref. Des.,S-parameter Model,Model Active
+"GRM21B1X1A104JA01" "C_2" "--None--" 1
+"GRM21B1X1A104JA01" "C_3" "--None--" 1
+"GRM21B1X1A104JA01" "C_4" "--None--" 1
+"R402_50" "R_1" "--None--" 1
+"R402_150" "R_2" "--None--" 1
+"R402_150" "R_3" "--None--" 1

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<c:Control xmlns:c="http://www.ansys.com/control" schemaVersion="1.0">
+
+  <Stackup schemaVersion="1.0">
+    <Materials>
+      <Material Name="air">
+        <Permittivity>
+          <Double>1.0006</Double>
+        </Permittivity>
+        <Permeability>
+          <Double>1.0000004</Double>
+        </Permeability>
+        <Conductivity>
+          <Double>0</Double>
+        </Conductivity>
+        <DielectricLossTangent>
+          <Double>0</Double>
+        </DielectricLossTangent>
+        <MagneticLossTangent>
+          <Double>0</Double>
+        </MagneticLossTangent>
+      </Material>
+      <Material Name="copper">
+        <Permittivity>
+          <Double>1</Double>
+        </Permittivity>
+        <Permeability>
+          <Double>0.999991</Double>
+        </Permeability>
+        <Conductivity>
+          <Double>58000000</Double>
+        </Conductivity>
+        <DielectricLossTangent>
+          <Double>0</Double>
+        </DielectricLossTangent>
+        <MagneticLossTangent>
+          <Double>0</Double>
+        </MagneticLossTangent>
+      </Material>
+      <Material Name="FR4_epoxy">
+        <Permittivity>
+          <Double>4.4</Double>
+        </Permittivity>
+        <Permeability>
+          <Double>1</Double>
+        </Permeability>
+        <Conductivity>
+          <Double>0</Double>
+        </Conductivity>
+        <DielectricLossTangent>
+          <Double>0.02</Double>
+        </DielectricLossTangent>
+        <MagneticLossTangent>
+          <Double>0</Double>
+        </MagneticLossTangent>
+      </Material>
+    </Materials>
+    <Layers LengthUnit="mm">
+      <Layer Color="#5c4300" FillMaterial="FR4_epoxy" GDSIIVia="false" Material="copper" Name="diff-probe-F_SilkS.gbr" Negative="false" Thickness="0" Type="silkscreen"/>
+      <Layer Color="#8db7ca" FillMaterial="FR4_epoxy" GDSIIVia="false" Material="copper" Name="diff-probe-F_Paste.gbr" Negative="false" Thickness="0" Type="solderpaste"/>
+      <Layer Color="#fd777a" FillMaterial="FR4_epoxy" GDSIIVia="false" Material="copper" Name="diff-probe-F_Mask.gbr" Negative="false" Thickness="0" Type="soldermask"/>
+      <Layer Color="#f67fc1" FillMaterial="FR4_epoxy" Material="copper" Name="diff-probe-F_Cu.gbr" Thickness="0" Type="conductor"/>
+      <Layer Color="#868feb" FillMaterial="FR4_epoxy" GDSIIVia="false" Material="copper" Name="diff-probe-B_SilkS.gbr" Negative="false" Thickness="0" Type="silkscreen"/>
+      <Layer Color="#289889" FillMaterial="FR4_epoxy" GDSIIVia="false" Material="copper" Name="diff-probe-B_Paste.gbr" Negative="false" Thickness="0" Type="solderpaste"/>
+      <Layer Color="#553755" FillMaterial="FR4_epoxy" GDSIIVia="false" Material="copper" Name="diff-probe-B_Mask.gbr" Negative="false" Thickness="0" Type="soldermask"/>
+      <Layer Color="#d198b1" FillMaterial="FR4_epoxy" Material="copper" Name="diff-probe-B_Cu.gbr" Thickness="0" Type="conductor"/>
+      <Layer Color="#09517b" FillMaterial="FR4_epoxy" IsDrillLayer="true" Material="copper" Name="diff-probe-NPTH.drl" Thickness="0" Type="via"/>
+      <Layer Color="#5e6f10" FillMaterial="FR4_epoxy" IsDrillLayer="true" Material="copper" Name="diff-probe-PTH.drl" Thickness="0" Type="via"/>
+    </Layers>
+  </Stackup>
+
+</c:Control>

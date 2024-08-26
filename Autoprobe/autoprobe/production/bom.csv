@@ -1,0 +1,10 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+H1,MountingHole_3.2mm_M3,1,MountingHole,
+R1,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,1,46.4k,
+R3,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,1,10k,
+J3,Molex_CLIK-Mate_502494-0470_1x04-1MP_P2.00mm_Horizontal,1,Molex 502494-0470,
+U1,SOIC-8_3.9x4.9mm_P1.27mm,1,M24C02-FMN,
+R2,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,1,4k7,
+C1,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1,100nF,
+J1,PinHeader_1x09_P2.54mm_Horizontal,1,Conn_01x09,
+J2,PinHeader_1x05_P2.54mm_Vertical,1,Conn_01x05,

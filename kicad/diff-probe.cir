@@ -1,0 +1,34 @@
+.title KiCad schematic
+.include "LMH6723.LIB"
+C16 V+ GND 100nF
+C23 GND V- 100nF
+C22 GND V- 100nF
+C17 V+ GND 100nF
+R38 /NEGMID /OUT 220Ω
+R27 Net-_IC3-Pad2_ /PosIn1 220Ω
+R26 /POSMID /offset 220Ω
+R32 /NegIn1 /NEGMID 1.1kΩ
+R22 /PosIn1 /POSMID 1.1kΩ
+XIC3 unconnected-_IC3-Pad1_ Net-_IC3-Pad2_ /POSIN V- unconnected-_IC3-Pad5_ /PosIn1 V+ unconnected-_IC3-Pad8_ LMH6723
+XIC5 unconnected-_IC5-Pad1_ Net-_IC5-Pad2_ /NEGIN V- unconnected-_IC5-Pad5_ /NegIn1 V+ unconnected-_IC5-Pad8_ LMH6723
+R37 Net-_IC5-Pad2_ /NegIn1 220Ω
+C1 /offset GND 100nF
+X2 /OutPad GND GND GND GND SMA--BU-SMA-H
+C52 V+ GND 1µF
+C54 GND V- 1µF
+J1 unconnected-_J1-Pad1_ unconnected-_J1-Pad2_ unconnected-_J1-Pad3_ unconnected-_J1-Pad4_ Molex 502439-0400
+J4 V+ GND V- /offset Molex 502494-0470
+C18 V+ GND 100nF
+C24 GND V- 100nF
+J3 /PosPad /NegPad HEADER-1X2CARD-EDGE
+R20 /PosPad /POSIN 150Ω
+R28 /NegPad /NEGIN 150Ω
+C20 GND V- 100nF
+C14 V+ GND 100nF
+C21 GND V- 100nF
+C15 V+ GND 100nF
+XIC4 unconnected-_IC4-Pad1_ /NEGMID /POSMID V- unconnected-_IC4-Pad5_ /OUT V+ unconnected-_IC4-Pad8_ LMH6723
+R30 /OUT /OutPad 50Ω
+C19 GND V- 100nF
+C13 V+ GND 100nF
+.end

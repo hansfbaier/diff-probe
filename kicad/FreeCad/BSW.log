@@ -1,0 +1,14 @@
+2023-10-01 12:04:15 20664     [INFO] ****** HyperLynx VX2.12 build 21158655 
+2023-10-01 12:04:15 20664     [INFO]        C:\MentorGraphics64\HLVX.2.12\SDD_HOME\hyperlynx64\BSW.EXE /dde 
+2023-10-01 12:16:28 20664     [INFO] Opening Project C:\Users\RWache\OneDrive - Rockwell Automation, Inc\Simulation tools\kicad_proj\diff-probe\kicad\FreeCad\diff-probe.hyp
+2023-10-01 12:16:29 20664     [INFO] Opened Board: diff-probe.hyp <C:\Users\RWache\OneDrive - Rockwell Automation, Inc\Simulation tools\kicad_proj\diff-probe\kicad\FreeCad\>
+2023-10-01 12:18:47 20664     [INFO] Note: Note: With the present crosstalk threshold, no segments are coupled to the selected segment
+2023-10-01 12:19:13 20664  [WARNING] No IC output on selected net (i.e., no driver). Stopping.
+2023-10-01 12:19:51 20664    [ERROR] Open file: File "C:\Users\RWache\OneDrive - Rockwell Automation, Inc\Simulation tools\kicad_proj\diff-probe\kicad\FreeCad\diff-probe.ref" cannot be opened Starting with new file
+2023-10-01 12:22:33 20664  [WARNING] No driver on selected net. Choose a driver now? - The "Yes" button was selected
+2023-10-01 12:23:46 20664  [WARNING] No driver on selected net. Choose a driver now? - The "Yes" button was selected
+2023-10-01 12:23:58 20664  [WARNING] No driver on selected net. Choose a driver now? - The "Yes" button was selected
+2023-10-01 12:24:44 20664  [WARNING] Warning: No probes are enabled. Please enable at least one before simulating.
+2023-10-01 12:25:33 20664     [INFO] Close HyperLynx Session: Design file: diff-probe.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2023-10-01 12:25:37 20664     [INFO] Closing Design: diff-probe.hyp
+2023-10-01 12:25:38 20664     [INFO] ****** Closing HyperLynx 

@@ -79,4 +79,9 @@
     (solder_mask_margin 0.0508) (tstamp 20caf6d2-76a7-497e-ac56-f6d31eb9027b))
   (pad "8" smd rect (at -1.905 -2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.0508) (tstamp f6983918-fe05-46ea-b355-bc522ec53440))
+  (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

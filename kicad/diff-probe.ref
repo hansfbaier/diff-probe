@@ -1,0 +1,30 @@
+*
+* RefDes model auto-assign file *
+*
+C1, 100.0nF
+C13, 100.0nF
+C14, 100.0nF 
+C15, 100.0nF
+C16, 100.0nF
+C17, 100.0nF
+C18, 100.0nF
+C19, 100.0nF
+C20, 100.0nF
+C21, 100.0nF
+C22, 100.0nF
+C23, 100.0nF
+C24, 100.0nF
+C52, 1uF
+C54, 1uF
+R20, 150.0ohms
+R28, 150.0ohms
+R26, 220.0ohms
+R27, 220.0ohms
+R37, 220.0ohms
+R38, 220.0ohms
+R22, 1000.0ohms
+R32, 1000.0ohms
+R30, 50.0ohms
+IC3, LLMH6702.MOD
+IC4, LMH6702.MOD
+IC5, LMH6702.MOD

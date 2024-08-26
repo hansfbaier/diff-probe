@@ -5,7 +5,7 @@
     (effects (font (size 0.736 0.736) (thickness 0.064)))
     (tstamp 4aa97874-2fd2-414c-b381-9420384c2fd8)
   )
-  (fp_text value "" (at 0 0) (layer "F.SilkS")
+  (fp_text value "Val**" (at 0 0) (layer "F.SilkS")
     (effects (font (size 1.27 1.27) (thickness 0.15)))
     (tstamp 25bc3602-3fb4-4a04-94e3-21ba22562c24)
   )
@@ -27,4 +27,9 @@
     (solder_mask_margin 0.0508) (tstamp 7760a75a-d74b-4185-b34e-cbc7b2c339b6))
   (pad "P$2" smd roundrect (at 0.625 0 180) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.125)
     (solder_mask_margin 0.0508) (tstamp c1bac86f-cbf6-4c5b-b60d-c26fa73d9c09))
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,0 +1,31 @@
+# <partname> <ParasiticCap> <ParasiticInd> <ParasiticRes>
+313688-Q27     Res      8.060000e+03
+94301301     Res      1.000000e+06
+94400902     Res      5.000000e+01
+94460409     Res      1.210000e+04
+94460465     Res      4.640000e+04
+94460501     Res      1.000000e+05
+94460597     Res      1.000000e+06
+PN-88812     Res      3.740000e+04
+PN-90034     Res      2.490000e+04
+PN-126018     Res      2.740000e+04
+PN-148317     Res      3.010000e+03
+PN-168824     Res      6.810000e+04
+PN-199717     Res      7.500000e-01
+PN-232891     Res      5.000000e+01
+PN-271812     Res      3.320000e+04
+PN-286739     Res      2.370000e+05
+PN-388368     Res      1.150000e+04
+PN-558010     Res      4.700000e+03
+1812CS-103     NonIdealInd      2.097474e-13      1.000000e-05      1.268083e+01
+HL021R0     NonIdealInd      0.000000e+00      1.000000e-09      9.410980e-02
+04023K220FBSTR     NonIdealCap      2.200000e-11      3.646777e-10      2.099780e-02
+A700V476M006ATE018     NonIdealCap      4.700000e-05      1.544506e-09      1.557831e-02
+C0805C102K1GAC     NonIdealCap      1.000000e-09      1.420779e-09      2.508631e-02
+C1812C103K1GAC     NonIdealCap      1.000000e-08      1.161877e-09      7.402230e-03
+CL31B475KOHNNN     NonIdealCap      4.700000e-06      9.780392e-10      4.212826e-03
+CL31X226KOHN3N     NonIdealCap      2.200000e-05      1.065449e-09      2.806329e-03
+EMK105BJ104     NonIdealCap      1.000000e-07      4.298081e-10      1.442589e-02
+JMK105BJ225     NonIdealCap      2.200000e-06      3.426257e-10      2.717759e-03
+LMK105SD392     NonIdealCap      3.900000e-09      5.640025e-10      4.380156e-02
+UQCL2A120     NonIdealCap      1.200000e-11      4.462448e-10      2.352570e-02

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<IPC-2581 revision="B" xmlns="http://webstds.ipc.org/2581" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <Content roleRef="Manager">
+    <FunctionMode level="1" mode="USERDEF"/>
+    <StepRef name="4Layers_stackup_IPC2581"/>
+    <LayerRef name="DIELECTRIC-2"/>
+    <LayerRef name="METAL-1"/>
+    <LayerRef name="DIELECTRIC-1"/>
+    <LayerRef name="METAL-4"/>
+    <LayerRef name="DIELECTRIC-3"/>
+    <DictionaryFillDesc units="INCH">
+      <EntryFillDesc id="SOLID_FILL">
+        <FillDesc fillProperty="FILL"/>
+      </EntryFillDesc>
+    </DictionaryFillDesc>
+    <DictionaryStandard units="INCH"/>
+    <DictionaryColor>
+      <EntryColor id="COLOR_METAL-1">
+        <Color b="30" g="171" r="196"/>
+      </EntryColor>
+      <EntryColor id="COLOR_METAL-4">
+        <Color b="131" g="149" r="232"/>
+      </EntryColor>
+    </DictionaryColor>
+  </Content>
+
+  <LogisticHeader>
+    <Role id="Owner" roleFunction="SENDER"/>
+    <Enterprise code="UNKNOWN" id="UNKNOWN"/>
+    <Person enterpriseRef="UNKNOWN" name="UNKNOWN" roleRef="Owner"/>
+  </LogisticHeader>
+
+  <HistoryRecord lastChange="2022-8-12T14:2:5" number="1" origination="2022-8-12T14:2:5" software="ANSYS Electromagnetics Suite">
+    <FileRevision comment="No Comment" fileRevisionId="1">
+      <SoftwarePackage name="ANSYS Electromagnetics Suite" revision="2021 R2(Build: 2021-08-27 11:05:34)[64-bit]" vendor="ANSYS">
+        <Certification certificationStatus="CERTIFIED"/>
+      </SoftwarePackage>
+    </FileRevision>
+  </HistoryRecord>
+
+  <Ecad name="Design">
+    <CadHeader units="INCH">
+      <Spec name="SPEC_LAYER_DIELECTRIC-2">
+        <General type="MATERIAL">
+          <Property text="SolderMask"/>
+        </General>
+        <General comment="LAYER_TYPE" type="OTHER">
+          <Property text="SURFACE"/>
+        </General>
+        <Conductor type="CONDUCTIVITY">
+          <Property unit="MHO/CM" value="0.000060"/>
+        </Conductor>
+        <Dielectric type="DIELECTRIC_CONSTANT">
+          <Property value="3.100000"/>
+        </Dielectric>
+        <Dielectric type="LOSS_TANGENT">
+          <Property value="0.000000"/>
+        </Dielectric>
+        <General comment="LAYER_EMBEDDED_STATUS" type="OTHER">
+          <Property value="NOT_EMBEDDED"/>
+        </General>
+      </Spec>
+      <Spec name="SPEC_LAYER_METAL-1">
+        <General type="MATERIAL">
+          <Property text="copper"/>
+        </General>
+        <General comment="LAYER_TYPE" type="OTHER">
+          <Property text="CONDUCTOR"/>
+        </General>
+        <Conductor type="CONDUCTIVITY">
+          <Property unit="MHO/CM" value="580000.000000"/>
+        </Conductor>
+        <Dielectric type="DIELECTRIC_CONSTANT">
+          <Property value="0.000000"/>
+        </Dielectric>
+        <Dielectric type="LOSS_TANGENT">
+          <Property value="0.000000"/>
+        </Dielectric>
+        <General comment="LAYER_EMBEDDED_STATUS" type="OTHER">
+          <Property value="NOT_EMBEDDED"/>
+        </General>
+      </Spec>
+      <Spec name="SPEC_LAYER_DIELECTRIC-1">
+        <General type="MATERIAL">
+          <Property text="FR4_epoxy"/>
+        </General>
+        <General comment="LAYER_TYPE" type="OTHER">
+          <Property text="DIELECTRIC"/>
+        </General>
+        <Conductor type="CONDUCTIVITY">
+          <Property unit="MHO/CM" value="0.000049"/>
+        </Conductor>
+        <Dielectric type="DIELECTRIC_CONSTANT">
+          <Property value="4.400000"/>
+        </Dielectric>
+        <Dielectric type="LOSS_TANGENT">
+          <Property value="0.000000"/>
+        </Dielectric>
+      </Spec>
+      <Spec name="SPEC_LAYER_METAL-4">
+        <General type="MATERIAL">
+          <Property text="copper"/>
+        </General>
+        <General comment="LAYER_TYPE" type="OTHER">
+          <Property text="CONDUCTOR"/>
+        </General>
+        <Conductor type="CONDUCTIVITY">
+          <Property unit="MHO/CM" value="580000.000000"/>
+        </Conductor>
+        <Dielectric type="DIELECTRIC_CONSTANT">
+          <Property value="0.000000"/>
+        </Dielectric>
+        <Dielectric type="LOSS_TANGENT">
+          <Property value="0.000000"/>
+        </Dielectric>
+        <General comment="LAYER_EMBEDDED_STATUS" type="OTHER">
+          <Property value="NOT_EMBEDDED"/>
+        </General>
+      </Spec>
+      <Spec name="SPEC_LAYER_DIELECTRIC-3">
+        <General type="MATERIAL">
+          <Property text="SolderMask"/>
+        </General>
+        <General comment="LAYER_TYPE" type="OTHER">
+          <Property text="SURFACE"/>
+        </General>
+        <Conductor type="CONDUCTIVITY">
+          <Property unit="MHO/CM" value="0.000060"/>
+        </Conductor>
+        <Dielectric type="DIELECTRIC_CONSTANT">
+          <Property value="3.100000"/>
+        </Dielectric>
+        <Dielectric type="LOSS_TANGENT">
+          <Property value="0.000000"/>
+        </Dielectric>
+        <General comment="LAYER_EMBEDDED_STATUS" type="OTHER">
+          <Property value="NOT_EMBEDDED"/>
+        </General>
+      </Spec>
+    </CadHeader>
+    <CadData>
+      <Layer layerFunction="DIELCORE" name="DIELECTRIC-2" polarity="POSITIVE" side="TOP"/>
+      <Layer layerFunction="CONDUCTOR" name="METAL-1" polarity="POSITIVE" side="INTERNAL"/>
+      <Layer layerFunction="DIELCORE" name="DIELECTRIC-1" polarity="POSITIVE" side="INTERNAL"/>
+      <Layer layerFunction="CONDUCTOR" name="METAL-4" polarity="POSITIVE" side="INTERNAL"/>
+      <Layer layerFunction="DIELCORE" name="DIELECTRIC-3" polarity="POSITIVE" side="BOTTOM"/>
+      <Stackup name="ECAD_CROSS_SECTION" overallThickness="0.0633858268" tolMinus="0.0" tolPlus="0.0" whereMeasured="OTHER">
+        <StackupGroup name="RootGroup" overallThickness="0.0633858268" tolMinus="0.0" tolPlus="0.0">
+          <StackupLayer layerOrGroupRef="DIELECTRIC-2" sequence="1" thickness="0.000590551181" tolMinus="0.0" tolPlus="0.0">
+            <SpecRef id="SPEC_LAYER_DIELECTRIC-2"/>
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="METAL-1" sequence="2" thickness="0.00137795276" tolMinus="0.0" tolPlus="0.0">
+            <SpecRef id="SPEC_LAYER_METAL-1"/>
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="DIELECTRIC-1" sequence="3" thickness="0.0594488189" tolMinus="0.0" tolPlus="0.0">
+            <SpecRef id="SPEC_LAYER_DIELECTRIC-1"/>
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="METAL-4" sequence="4" thickness="0.00137795276" tolMinus="0.0" tolPlus="0.0">
+            <SpecRef id="SPEC_LAYER_METAL-4"/>
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="DIELECTRIC-3" sequence="5" thickness="0.000590551181" tolMinus="0.0" tolPlus="0.0">
+            <SpecRef id="SPEC_LAYER_DIELECTRIC-3"/>
+          </StackupLayer>
+        </StackupGroup>
+      </Stackup>
+      <Step name="4Layers_stackup_IPC2581">
+        <LayerFeature layerRef="METAL-1">
+          <Set>
+            <ColorRef id="COLOR_METAL-1"/>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="METAL-4">
+          <Set>
+            <ColorRef id="COLOR_METAL-4"/>
+          </Set>
+        </LayerFeature>
+      </Step>
+    </CadData>
+  </Ecad>
+
+</IPC-2581>

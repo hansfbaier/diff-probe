@@ -1,0 +1,67 @@
+$begin 'StackupLayers'
+	Units('mm')
+	$begin 'Layers'
+		Layer(LayerID=1, LayerName='smt', LayerType=0, IsNegative=true, Material='ODB_DIEL_smt', Elevation=1.17856, Thickness=0.0254, TopRoughness=0, BottomRoughness=0, SideRoughness=0, IsTopRoughnessHuray=false, IsBottomRoughnessHuray=false, IsSideRoughnessHuray=false, TopRoughnessHurayModel='', BottomRoughnessHurayModel='', SideRoughnessHurayModel='', DefinedDielectricFill='', TraceCrossSectionShape=0, TraceCrossSectionEtchStyle=0, TraceCrossSectionTopEdgeRatio=1, TraceCrossSectionBottomEdgeRatio=1, IsUserDefinedAbsValForTCS=false, AbsValueOfTopWidthForTCS=0, AbsValueOfBotWidthForTCS=0, IsThicknessInvolvedForTCS=true, Color(127, 127, 127))
+		Layer(LayerID=2, LayerName='signal_1', LayerType=2, IsNegative=true, Material='ODB_COND_signal_1', Elevation=1.14427, Thickness=0.03429, TopRoughness=0, BottomRoughness=0, SideRoughness=0, IsTopRoughnessHuray=false, IsBottomRoughnessHuray=false, IsSideRoughnessHuray=false, TopRoughnessHurayModel='', BottomRoughnessHurayModel='', SideRoughnessHurayModel='', DefinedDielectricFill='ODB_DIEL_smt', TraceCrossSectionShape=0, TraceCrossSectionEtchStyle=0, TraceCrossSectionTopEdgeRatio=1, TraceCrossSectionBottomEdgeRatio=1, IsUserDefinedAbsValForTCS=false, AbsValueOfTopWidthForTCS=0, AbsValueOfBotWidthForTCS=0, IsThicknessInvolvedForTCS=true, Color(196, 171, 30))
+		Layer(LayerID=3, LayerName='dielectric_2', LayerType=0, IsNegative=true, Material='ODB_DIEL_dielectric_2', Elevation=0.9410700000000001, Thickness=0.2032, TopRoughness=0, BottomRoughness=0, SideRoughness=0, IsTopRoughnessHuray=false, IsBottomRoughnessHuray=false, IsSideRoughnessHuray=false, TopRoughnessHurayModel='', BottomRoughnessHurayModel='', SideRoughnessHurayModel='', DefinedDielectricFill='', TraceCrossSectionShape=0, TraceCrossSectionEtchStyle=0, TraceCrossSectionTopEdgeRatio=1, TraceCrossSectionBottomEdgeRatio=1, IsUserDefinedAbsValForTCS=false, AbsValueOfTopWidthForTCS=0, AbsValueOfBotWidthForTCS=0, IsThicknessInvolvedForTCS=true, Color(127, 127, 127))
+		Layer(LayerID=4, LayerName='signal_2', LayerType=2, IsNegative=true, Material='ODB_COND_signal_1', Elevation=0.90678, Thickness=0.03429, TopRoughness=0, BottomRoughness=0, SideRoughness=0, IsTopRoughnessHuray=false, IsBottomRoughnessHuray=false, IsSideRoughnessHuray=false, TopRoughnessHurayModel='', BottomRoughnessHurayModel='', SideRoughnessHurayModel='', DefinedDielectricFill='ODB_DIEL_dielectric_2', TraceCrossSectionShape=0, TraceCrossSectionEtchStyle=0, TraceCrossSectionTopEdgeRatio=1, TraceCrossSectionBottomEdgeRatio=1, IsUserDefinedAbsValForTCS=false, AbsValueOfTopWidthForTCS=0, AbsValueOfBotWidthForTCS=0, IsThicknessInvolvedForTCS=true, Color(152, 143, 192))
+		Layer(LayerID=5, LayerName='dielectric_3', LayerType=0, IsNegative=true, Material='ODB_DIEL_dielectric_2', Elevation=0.29718, Thickness=0.6096, TopRoughness=0, BottomRoughness=0, SideRoughness=0, IsTopRoughnessHuray=false, IsBottomRoughnessHuray=false, IsSideRoughnessHuray=false, TopRoughnessHurayModel='', BottomRoughnessHurayModel='', SideRoughnessHurayModel='', DefinedDielectricFill='', TraceCrossSectionShape=0, TraceCrossSectionEtchStyle=0, TraceCrossSectionTopEdgeRatio=1, TraceCrossSectionBottomEdgeRatio=1, IsUserDefinedAbsValForTCS=false, AbsValueOfTopWidthForTCS=0, AbsValueOfBotWidthForTCS=0, IsThicknessInvolvedForTCS=true, Color(127, 127, 127))
+		Layer(LayerID=6, LayerName='signal_3', LayerType=2, IsNegative=true, Material='ODB_COND_signal_1', Elevation=0.26289, Thickness=0.03429, TopRoughness=0, BottomRoughness=0, SideRoughness=0, IsTopRoughnessHuray=false, IsBottomRoughnessHuray=false, IsSideRoughnessHuray=false, TopRoughnessHurayModel='', BottomRoughnessHurayModel='', SideRoughnessHurayModel='', DefinedDielectricFill='ODB_DIEL_dielectric_2', TraceCrossSectionShape=0, TraceCrossSectionEtchStyle=0, TraceCrossSectionTopEdgeRatio=1, TraceCrossSectionBottomEdgeRatio=1, IsUserDefinedAbsValForTCS=false, AbsValueOfTopWidthForTCS=0, AbsValueOfBotWidthForTCS=0, IsThicknessInvolvedForTCS=true, Color(141, 225, 218))
+		Layer(LayerID=7, LayerName='dielectric_4', LayerType=0, IsNegative=true, Material='ODB_DIEL_dielectric_2', Elevation=0.05969, Thickness=0.2032, TopRoughness=0, BottomRoughness=0, SideRoughness=0, IsTopRoughnessHuray=false, IsBottomRoughnessHuray=false, IsSideRoughnessHuray=false, TopRoughnessHurayModel='', BottomRoughnessHurayModel='', SideRoughnessHurayModel='', DefinedDielectricFill='', TraceCrossSectionShape=0, TraceCrossSectionEtchStyle=0, TraceCrossSectionTopEdgeRatio=1, TraceCrossSectionBottomEdgeRatio=1, IsUserDefinedAbsValForTCS=false, AbsValueOfTopWidthForTCS=0, AbsValueOfBotWidthForTCS=0, IsThicknessInvolvedForTCS=true, Color(127, 127, 127))
+		Layer(LayerID=8, LayerName='signal_4', LayerType=2, IsNegative=true, Material='ODB_COND_signal_1', Elevation=0.0254, Thickness=0.03429, TopRoughness=0, BottomRoughness=0, SideRoughness=0, IsTopRoughnessHuray=false, IsBottomRoughnessHuray=false, IsSideRoughnessHuray=false, TopRoughnessHurayModel='', BottomRoughnessHurayModel='', SideRoughnessHurayModel='', DefinedDielectricFill='ODB_DIEL_smt', TraceCrossSectionShape=0, TraceCrossSectionEtchStyle=0, TraceCrossSectionTopEdgeRatio=1, TraceCrossSectionBottomEdgeRatio=1, IsUserDefinedAbsValForTCS=false, AbsValueOfTopWidthForTCS=0, AbsValueOfBotWidthForTCS=0, IsThicknessInvolvedForTCS=true, Color(232, 149, 131))
+		Layer(LayerID=9, LayerName='smb', LayerType=0, IsNegative=true, Material='ODB_DIEL_smt', Elevation=0, Thickness=0.0254, TopRoughness=0, BottomRoughness=0, SideRoughness=0, IsTopRoughnessHuray=false, IsBottomRoughnessHuray=false, IsSideRoughnessHuray=false, TopRoughnessHurayModel='', BottomRoughnessHurayModel='', SideRoughnessHurayModel='', DefinedDielectricFill='', TraceCrossSectionShape=0, TraceCrossSectionEtchStyle=0, TraceCrossSectionTopEdgeRatio=1, TraceCrossSectionBottomEdgeRatio=1, IsUserDefinedAbsValForTCS=false, AbsValueOfTopWidthForTCS=0, AbsValueOfBotWidthForTCS=0, IsThicknessInvolvedForTCS=true, Color(127, 127, 127))
+	$end 'Layers'
+	$begin 'Materials'
+		$begin 'Conductor'
+			Name='ODB_COND_signal_1'
+			Conductivity=58004600
+			Permeability=1
+			DerivedFrom='vacuum'
+			AnsoftID=0
+		$end 'Conductor'
+		$begin 'Insulator'
+			Name='ODB_DIEL_dielectric_2'
+			Permittivity=4.3
+			LossTangent=0.02
+			DerivedFrom='vacuum'
+			AnsoftID=0
+			$begin 'Djordjevic-Sarkar'
+				MeasurementFreq=1000000000
+				SigmaDC=0
+				EpsDC=0
+			$end 'Djordjevic-Sarkar'
+		$end 'Insulator'
+		$begin 'Insulator'
+			Name='ODB_DIEL_smt'
+			Permittivity=3.3
+			LossTangent=0.02
+			DerivedFrom='vacuum'
+			AnsoftID=0
+			$begin 'Djordjevic-Sarkar'
+				MeasurementFreq=1000000000
+				SigmaDC=0
+				EpsDC=0
+			$end 'Djordjevic-Sarkar'
+		$end 'Insulator'
+	$end 'Materials'
+	$begin 'HurayModels'
+		$begin 'HurayModel'
+			ModelName='Low Loss'
+			MetalSphereRadius=0.0005
+			UnitCellArea=1e-06
+			SpheresPerUnitCell=0.3183098861837906
+		$end 'HurayModel'
+		$begin 'HurayModel'
+			ModelName='Medium Loss'
+			MetalSphereRadius=0.0005
+			UnitCellArea=1e-06
+			SpheresPerUnitCell=0.954929658551372
+		$end 'HurayModel'
+		$begin 'HurayModel'
+			ModelName='High Loss'
+			MetalSphereRadius=0.0005
+			UnitCellArea=1e-06
+			SpheresPerUnitCell=1.909859317102744
+		$end 'HurayModel'
+	$end 'HurayModels'
+$end 'StackupLayers'

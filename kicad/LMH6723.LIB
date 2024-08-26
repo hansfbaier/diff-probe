@@ -1,0 +1,161 @@
+*LMH6723
+*****************************************************************************
+* (C) Copyright 2016 Texas Instruments Incorporated. All rights reserved.
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer.
+*****************************************************************************
+*
+** Released by: WEBENCH(R) Design Center, Texas Instruments Inc.
+* Part: LMH6723
+* Date: 09/05/2016 
+* Model Type: All In One
+* Simulator: PSPICE
+* Simulator Version: 16.2.0.p001
+* EVM Order Number: N/A 
+* EVM Users Guide:  N/A 
+* Datasheet: SNOSA83I
+*
+* Model Version: 1.0
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Version 1.0 : Release to Web
+*
+*****************************************************************************
+
+********************************************************************************
+* Release Notes:
+* TO SET THE MODEL UP FOR EITHER +-2.5 VOLT SUPPLY
+* OR +- 5 VOLT SUPPLY KEEP ONE OF THE FOLLOWING
+* SETS OF VALUES AND COMMENT THE OTHER. THE LINES
+* IN PLACE NOW ARE FOR +- 5 VOLTS. FOR POWER SUPPLY
+* VOLTAGES BETWEEN +-2.5 AND +-5 THE COMPONENT
+* VALUES SHOULD BE LINEARLY INTERPOLATED.
+* C11 AND F1 MODIFY BANDWITH
+* C11 AND F1 AND R40 MODIFY SLEW
+* C12 SLIGHTLY MODIFIES BANDWIDTH
+* BEGIN +-5 VOLT VALUES
+*****************************************************************************
+
+* PINOUT ORDER +IN -IN +V -V OUT
+* PINOUT ORDER  3   4   5  2  1
+
+.SUBCKT LMH6723 3 4 5 2 1
+C11 31 0 3.33E-12
+R40 39 31 334
+C12 43 0 0.5E-12
+F1 39 0 V14 -6.6
+* END +- 5 VOLT VALUES
+* BEGIN +- 2.5 VOLT VALUES
+*C11 31 0 3.6E-12
+*R40 39 31 422
+*C12 43 0 0.6E-12
+*F1 39 0 V14 -5.5
+* END +- 2.5 VOLT VALUES
+* END MODEL PROGRAMMING
+Q17 2 6 7 QOP
+Q21 5 8 7 QON
+D5 1 5 DD
+D6 2 1 DD
+D7 9 0 DIN
+D8 10 0 DIN
+I8 0 9 0.1E-3
+I9 0 10 0.1E-3
+E2 11 0 2 0 1
+E3 12 0 5 0 1
+D9 13 0 DVN
+D10 14 0 DVN
+I10 0 13 0.1E-3
+I11 0 14 0.1E-3
+E4 15 4 13 14 0.4
+G2 3 15 9 10 2.9E-3
+R22 2 5 1E6
+E5 16 0 12 0 1
+E6 17 0 11 0 1
+E7 18 0 19 0 1
+R30 16 20 3E5
+R31 17 21 3E5
+R32 18 22 1E6
+R33 0 20 30
+R34 0 21 30
+R35 0 22 100
+R36 19 23 1E3
+R37 19 24 1E3
+C6 16 20 1E-12
+C7 17 21 1E-12
+C8 18 22 0.5E-12
+E11 25 26 21 0 4.5
+E12 27 25 20 0 2.3
+Q22 11 28 8 QDP
+Q23 12 28 6 QDN
+I12 5 2 20E-6
+I13 12 8 1E-3
+I14 6 11 1E-3
+R38 0 29 10
+R39 0 28 10
+C9 29 0 30E-12
+C10 28 0 10E-12
+E15 30 31 32 0 1
+E16 31 33 32 0 1
+E17 34 0 31 0 1
+D11 35 12 DD
+D12 11 36 DD
+V11 33 36 1.85
+V12 35 30 1.6
+I15 0 37 1M
+D13 37 0 DD
+V13 32 37 -0.71465
+D14 38 39 DD
+D15 39 40 DD
+R41 0 39 320E3
+E18 41 0 27 0 0.999
+R42 41 42 300
+C13 27 0 1.5E-12
+V14 42 44 0
+R43 7 45 7
+G3 29 0 31 0 0.1
+G4 28 0 29 0 0.1
+C14 7 0 2P
+L1 45 1 4E-9
+R45 45 1 40
+E20 38 34 32 0 1
+E21 40 34 32 0 -1
+L2 43 44 5E-9
+R47 43 44 400
+E10 26 3 22 0 0.005
+C26 15 27 0.4E-12
+V15 12 46 1.13
+V16 47 11 1.13
+D16 15 46 DV
+D17 47 15 DV
+D18 3 46 DV
+D19 47 3 DV
+I16 0 3 2E-6
+R76 0 32 1E9
+R77 25 27 1E9
+R78 26 25 1E9
+R79 3 26 1E9
+R80 4 15 1E9
+R81 33 31 1E9
+R82 31 30 1E9
+E22 23 0 3 0 1
+E23 24 0 15 0 1
+I17 0 15 -0.4E-6
+V18 43 15 0.5E-3
+.MODEL QON NPN VAF=150 BF=110 IKF=0.5 RE=1 RC=1
+.MODEL QOP PNP VAF=150 BF=110 IKF=0.5 RE=1 RC=1
+.MODEL QDP PNP
+.MODEL QDN NPN
+.MODEL DD D
+.MODEL DV D RS=10E3
+.MODEL DVN D KF=2.5E-16
+.MODEL DIN D KF=8E-17
+.ENDS
+* END MODEL LMH6723

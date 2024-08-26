@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<c:Control xmlns:c="http://www.ansys.com/control" schemaVersion="1.0">
+
+  <Stackup schemaVersion="1.0">
+    <Materials/>
+    <Layers LengthUnit="mm">
+      <Layer AbsValueOfBotWidthForTCS="0.000000" AbsValueOfTopWidthForTCS="0.000000" BottomRoughness="0.000000" BottomRoughnessHurayModel="" Color="#2f5e26" Elevation="0.455000" FillMaterial="SolderMask" IsBottomRoughnessHuray="false" IsSideRoughnessHuray="false" IsThicknessInvolvedForTCS="true" IsTopRoughnessHuray="false" IsUserDefinedAbsValForTCS="false" LayerID="1" Material="SolderMask" Name="DIELECTRIC-4" SideRoughness="0.000000" SideRoughnessHurayModel="" Thickness="0.015000" TopRoughness="0.000000" TopRoughnessHurayModel="" TraceCrossSectionBottomEdgeRatio="1.000000" TraceCrossSectionEtchStyle="0" TraceCrossSectionShape="0" TraceCrossSectionTopEdgeRatio="1.000000" TypeSI="soldermask"/>
+      <Layer AbsValueOfBotWidthForTCS="0.000000" AbsValueOfTopWidthForTCS="0.000000" BottomRoughness="0.000000" BottomRoughnessHurayModel="" Color="#c4ab1e" Elevation="0.420000" EtchFactor="0" FillMaterial="SolderMask" IsBottomRoughnessHuray="false" IsSideRoughnessHuray="false" IsThicknessInvolvedForTCS="true" IsTopRoughnessHuray="false" IsUserDefinedAbsValForTCS="false" LayerID="2" Material="copper" Name="METAL-1" SideRoughness="0.000000" SideRoughnessHurayModel="" Thickness="0.035000" TopRoughness="0.000000" TopRoughnessHurayModel="" TraceCrossSectionBottomEdgeRatio="1.000000" TraceCrossSectionEtchStyle="0" TraceCrossSectionShape="0" TraceCrossSectionTopEdgeRatio="1.000000" Type="conductor" TypeSI="conductor">
+        <GroisseSurfaceRoughness Roughness="0mm"/>
+        <GroisseBottomSurfaceRoughness Roughness="0mm"/>
+        <GroisseSideSurfaceRoughness Roughness="0mm"/>
+      </Layer>
+      <Layer AbsValueOfBotWidthForTCS="0.000000" AbsValueOfTopWidthForTCS="0.000000" BottomRoughness="0.000000" BottomRoughnessHurayModel="" Color="#7f7f7f" Elevation="0.320000" FillMaterial="FR4_epoxy" IsBottomRoughnessHuray="false" IsSideRoughnessHuray="false" IsThicknessInvolvedForTCS="true" IsTopRoughnessHuray="false" IsUserDefinedAbsValForTCS="false" LayerID="3" Material="FR4_epoxy" Name="DIELECTRIC-1" SideRoughness="0.000000" SideRoughnessHurayModel="" Thickness="0.100000" TopRoughness="0.000000" TopRoughnessHurayModel="" TraceCrossSectionBottomEdgeRatio="1.000000" TraceCrossSectionEtchStyle="0" TraceCrossSectionShape="0" TraceCrossSectionTopEdgeRatio="1.000000" Type="dielectric" TypeSI="dielectric"/>
+      <Layer AbsValueOfBotWidthForTCS="0.000000" AbsValueOfTopWidthForTCS="0.000000" BottomRoughness="0.000000" BottomRoughnessHurayModel="" Color="#e89583" Elevation="0.285000" EtchFactor="0" FillMaterial="FR4_epoxy" IsBottomRoughnessHuray="false" IsSideRoughnessHuray="false" IsThicknessInvolvedForTCS="true" IsTopRoughnessHuray="false" IsUserDefinedAbsValForTCS="false" LayerID="4" Material="copper" Name="METAL-4" SideRoughness="0.000000" SideRoughnessHurayModel="" Thickness="0.035000" TopRoughness="0.000000" TopRoughnessHurayModel="" TraceCrossSectionBottomEdgeRatio="1.000000" TraceCrossSectionEtchStyle="0" TraceCrossSectionShape="0" TraceCrossSectionTopEdgeRatio="1.000000" Type="conductor" TypeSI="conductor">
+        <GroisseSurfaceRoughness Roughness="0mm"/>
+        <GroisseBottomSurfaceRoughness Roughness="0mm"/>
+        <GroisseSideSurfaceRoughness Roughness="0mm"/>
+      </Layer>
+      <Layer AbsValueOfBotWidthForTCS="0.000000" AbsValueOfTopWidthForTCS="0.000000" BottomRoughness="0.000000" BottomRoughnessHurayModel="" Color="#c0c0c0" Elevation="0.185000" FillMaterial="FR4_epoxy" IsBottomRoughnessHuray="false" IsSideRoughnessHuray="false" IsThicknessInvolvedForTCS="true" IsTopRoughnessHuray="false" IsUserDefinedAbsValForTCS="false" LayerID="5" Material="FR4_epoxy" Name="DIELECTRIC-2" SideRoughness="0.000000" SideRoughnessHurayModel="" Thickness="0.100000" TopRoughness="0.000000" TopRoughnessHurayModel="" TraceCrossSectionBottomEdgeRatio="1.000000" TraceCrossSectionEtchStyle="0" TraceCrossSectionShape="0" TraceCrossSectionTopEdgeRatio="1.000000" Type="dielectric" TypeSI="dielectric"/>
+      <Layer AbsValueOfBotWidthForTCS="0.000000" AbsValueOfTopWidthForTCS="0.000000" BottomRoughness="0.000000" BottomRoughnessHurayModel="" Color="#8de1da" Elevation="0.150000" EtchFactor="0" FillMaterial="FR4_epoxy" IsBottomRoughnessHuray="false" IsSideRoughnessHuray="false" IsThicknessInvolvedForTCS="true" IsTopRoughnessHuray="false" IsUserDefinedAbsValForTCS="false" LayerID="6" Material="copper" Name="METAL-2" SideRoughness="0.000000" SideRoughnessHurayModel="" Thickness="0.035000" TopRoughness="0.000000" TopRoughnessHurayModel="" TraceCrossSectionBottomEdgeRatio="1.000000" TraceCrossSectionEtchStyle="0" TraceCrossSectionShape="0" TraceCrossSectionTopEdgeRatio="0.850000" Type="conductor" TypeSI="conductor">
+        <GroisseSurfaceRoughness Roughness="0mm"/>
+        <GroisseBottomSurfaceRoughness Roughness="0mm"/>
+        <GroisseSideSurfaceRoughness Roughness="0mm"/>
+      </Layer>
+      <Layer AbsValueOfBotWidthForTCS="0.000000" AbsValueOfTopWidthForTCS="0.000000" BottomRoughness="0.000000" BottomRoughnessHurayModel="" Color="#c0c0c0" Elevation="0.050000" FillMaterial="FR4_epoxy" IsBottomRoughnessHuray="false" IsSideRoughnessHuray="false" IsThicknessInvolvedForTCS="true" IsTopRoughnessHuray="false" IsUserDefinedAbsValForTCS="false" LayerID="7" Material="FR4_epoxy" Name="DIELECTRIC-3" SideRoughness="0.000000" SideRoughnessHurayModel="" Thickness="0.100000" TopRoughness="0.000000" TopRoughnessHurayModel="" TraceCrossSectionBottomEdgeRatio="1.000000" TraceCrossSectionEtchStyle="0" TraceCrossSectionShape="0" TraceCrossSectionTopEdgeRatio="1.000000" Type="dielectric" TypeSI="dielectric"/>
+      <Layer AbsValueOfBotWidthForTCS="0.000000" AbsValueOfTopWidthForTCS="0.000000" BottomRoughness="0.000000" BottomRoughnessHurayModel="" Color="#988fc0" Elevation="0.015000" EtchFactor="0" FillMaterial="SolderMask" IsBottomRoughnessHuray="false" IsSideRoughnessHuray="false" IsThicknessInvolvedForTCS="true" IsTopRoughnessHuray="false" IsUserDefinedAbsValForTCS="false" LayerID="8" Material="copper" Name="METAL-3" SideRoughness="0.000000" SideRoughnessHurayModel="" Thickness="0.035000" TopRoughness="0.000000" TopRoughnessHurayModel="" TraceCrossSectionBottomEdgeRatio="1.000000" TraceCrossSectionEtchStyle="0" TraceCrossSectionShape="0" TraceCrossSectionTopEdgeRatio="0.850000" Type="conductor" TypeSI="conductor">
+        <GroisseSurfaceRoughness Roughness="0mm"/>
+        <GroisseBottomSurfaceRoughness Roughness="0mm"/>
+        <GroisseSideSurfaceRoughness Roughness="0mm"/>
+      </Layer>
+      <Layer AbsValueOfBotWidthForTCS="0.000000" AbsValueOfTopWidthForTCS="0.000000" BottomRoughness="0.000000" BottomRoughnessHurayModel="" Color="#2f5e26" Elevation="0.000000" FillMaterial="SolderMask" IsBottomRoughnessHuray="false" IsSideRoughnessHuray="false" IsThicknessInvolvedForTCS="true" IsTopRoughnessHuray="false" IsUserDefinedAbsValForTCS="false" LayerID="9" Material="SolderMask" Name="DIELECTRIC-5" SideRoughness="0.000000" SideRoughnessHurayModel="" Thickness="0.015000" TopRoughness="0.000000" TopRoughnessHurayModel="" TraceCrossSectionBottomEdgeRatio="1.000000" TraceCrossSectionEtchStyle="0" TraceCrossSectionShape="0" TraceCrossSectionTopEdgeRatio="1.000000" TypeSI="soldermask"/>
+    </Layers>
+  </Stackup>
+
+  <SIMaterials/>
+
+  <HurayModels>
+    <HurayModel MetalSphereRadius="0.000500" ModelName="Low Loss" SpheresPerUnitCell="0.318310" UnitCellArea="0.000001"/>
+    <HurayModel MetalSphereRadius="0.000500" ModelName="Medium Loss" SpheresPerUnitCell="0.954930" UnitCellArea="0.000001"/>
+    <HurayModel MetalSphereRadius="0.000500" ModelName="High Loss" SpheresPerUnitCell="1.909859" UnitCellArea="0.000001"/>
+  </HurayModels>
+
+</c:Control>

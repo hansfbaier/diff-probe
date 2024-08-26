@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\rwache\OneDrive - Rockwell Automation, Inc\project\debug_tools\diff-probe\kicad\diff-probe.kicad_sch</source>
+    <date>8/19/2022 12:08:14 PM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>2022-08-12</date>
+        <source>diff-probe.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/wielowarstwowe-kondensatory-ceramiczne/6983197</datasheet>
+      <fields>
+        <field name="LCSC">C15195</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5feb91f-0491-4867-884a-625e2b5e9951</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/wielowarstwowe-kondensatory-ceramiczne/6983197</datasheet>
+      <fields>
+        <field name="LCSC">C15195</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a319d05-1a85-43fe-a179-ebcee7212a03</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/wielowarstwowe-kondensatory-ceramiczne/6983197</datasheet>
+      <fields>
+        <field name="LCSC">C15195</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45a58c23-3e6d-4df0-af01-6d5948b0075c</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/wielowarstwowe-kondensatory-ceramiczne/6983197</datasheet>
+      <fields>
+        <field name="LCSC">C15195</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>926b329f-cd0d-410a-bc4a-e36446f8965a</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/wielowarstwowe-kondensatory-ceramiczne/6983197</datasheet>
+      <fields>
+        <field name="LCSC">C15195</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>771cb5c1-62ba-4cca-999e-cdcbe417213c</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/wielowarstwowe-kondensatory-ceramiczne/6983197</datasheet>
+      <fields>
+        <field name="LCSC">C15195</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a6d9a4e-fe6a-4427-9f0c-a10fd3ceb923</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/wielowarstwowe-kondensatory-ceramiczne/6983197</datasheet>
+      <fields>
+        <field name="LCSC">C15195</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bbd2e43-3eb0-4216-861b-a58366dbe43d</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/wielowarstwowe-kondensatory-ceramiczne/6983197</datasheet>
+      <fields>
+        <field name="LCSC">C15195</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5cea0b5-192f-476b-a3c8-0c26e2231699</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/wielowarstwowe-kondensatory-ceramiczne/6983197</datasheet>
+      <fields>
+        <field name="LCSC">C15195</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15a5a11b-0ea1-4f6e-b356-cc2d530615ed</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/wielowarstwowe-kondensatory-ceramiczne/6983197</datasheet>
+      <fields>
+        <field name="LCSC">C15195</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61a18b62-4111-4a9d-8fca-04c4c6f90cc3</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/wielowarstwowe-kondensatory-ceramiczne/6983197</datasheet>
+      <fields>
+        <field name="LCSC">C15195</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d23840a6-3c61-45ca-968a-bc57332fd7a4</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/wielowarstwowe-kondensatory-ceramiczne/6983197</datasheet>
+      <fields>
+        <field name="LCSC">C15195</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ab1512b-eb91-4574-b11f-326e0ff10082</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>100nF</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/wielowarstwowe-kondensatory-ceramiczne/6983197</datasheet>
+      <fields>
+        <field name="LCSC">C15195</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dfbccca-f469-4a6f-a8bd-5f55435b5cfa</tstamps>
+    </comp>
+    <comp ref="C52">
+      <value>1µF</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0603" description=""/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05c4a04b-0442-4e18-9747-3d9fc4a562fe</tstamps>
+    </comp>
+    <comp ref="C54">
+      <value>1µF</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="C-EU-0603" description=""/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2d090b5-bdc2-4863-87f2-2ea46a246d3d</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>LMH6702</value>
+      <footprint>SO08</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmh6723.pdf?ts=1660642782374&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMH6723%252Fpart-details%252FLMH6723MA%252FNOPB</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">LMH6723.LIB</field>
+        <field name="Spice_Model">LMH6723</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="OP-AMP-8-TI" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="LMH6723"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="LMH6723.LIB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc1d5740-b0c7-4566-95b0-470ac47a1fb3</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>LMH6702</value>
+      <footprint>SO08</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmh6723.pdf?ts=1660642782374&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMH6723%252Fpart-details%252FLMH6723MA%252FNOPB</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">LMH6723.LIB</field>
+        <field name="Spice_Model">LMH6723</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="OP-AMP-8-TI" description=""/>
+      <property name="Spice_Lib_File" value="LMH6723.LIB"/>
+      <property name="Spice_Model" value="LMH6723"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bbd6c26-4114-4518-8f4a-c6fdadc046b6</tstamps>
+    </comp>
+    <comp ref="IC5">
+      <value>LMH6702</value>
+      <footprint>SO08</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmh6723.pdf?ts=1660642782374&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMH6723%252Fpart-details%252FLMH6723MA%252FNOPB</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">LMH6723.LIB</field>
+        <field name="Spice_Model">LMH6723</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="OP-AMP-8-TI" description=""/>
+      <property name="Spice_Lib_File" value="LMH6723.LIB"/>
+      <property name="Spice_Model" value="LMH6723"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1240f00-ec43-4c0b-9a41-43264db8a893</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Molex 502439-0400</value>
+      <datasheet>https://www.molex.com/molex/products/part-detail/crimp_housings/5024390400</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>014312b6-7293-4dee-a0d7-a5fe3ef2fb13</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>HEADER-1X2CARD-EDGE</value>
+      <footprint>CARD_EDGE_PADS-1X2</footprint>
+      <libsource lib="diff-probe-eagle-import" part="HEADER-1X2CARD-EDGE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bb32dcb-8a97-4374-8a16-bc17822d4db3</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Molex 502494-0470</value>
+      <footprint>Connector_Molex:Molex_CLIK-Mate_502494-0470_1x04-1MP_P2.00mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/molex/products/part-detail/pcb_receptacles/5024940470</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4deca461-75fc-4a75-9265-1d2627054cf6</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>150Ω</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/rezystory-do-montazu-powierzchniowego/6317893</datasheet>
+      <fields>
+        <field name="LCSC">C25082</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="R-US-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C25082"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b853d9ac-7829-468f-99ac-dc9996502e94</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1.1kΩ</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/rezystory-do-montazu-powierzchniowego/1987678</datasheet>
+      <fields>
+        <field name="LCSC">C25860</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="R-US-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C25860"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20e1c48c-ae14-4a88-835e-87633cbb6a1c</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>220Ω</value>
+      <footprint>0402-SQUARE</footprint>
+      <fields>
+        <field name="LCSC">C25091</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="R-US-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C25091"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b315454-a4a0-4952-bdbe-d4a8e96c16f9</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>220Ω</value>
+      <footprint>0402-SQUARE</footprint>
+      <fields>
+        <field name="LCSC">C25091</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="R-US-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C25091"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fad358eb-4b7a-4138-896b-0d1749221b0d</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>150Ω</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/rezystory-do-montazu-powierzchniowego/6317893</datasheet>
+      <fields>
+        <field name="LCSC">C25082</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="R-US-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C25082"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b534cd1-c414-4029-9164-e46766faf60e</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>50Ω</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/rezystory-do-montazu-powierzchniowego/1234326</datasheet>
+      <fields>
+        <field name="LCSC">C477760</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="R-US-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C477760"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89fb4a63-a18d-4c7e-be12-f061ef4bf0c0</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>1.1kΩ</value>
+      <footprint>0402-SQUARE</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/rezystory-do-montazu-powierzchniowego/1987678</datasheet>
+      <fields>
+        <field name="LCSC">C25860</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="R-US-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C25860"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>017667a9-f5de-49c7-af53-4f9af2f3a311</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>220Ω</value>
+      <footprint>0402-SQUARE</footprint>
+      <fields>
+        <field name="LCSC">C25091</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="R-US-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C25091"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0e6fae4-0008-43ed-8719-bf62839f601f</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>220Ω</value>
+      <footprint>0402-SQUARE</footprint>
+      <fields>
+        <field name="LCSC">C25091</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="R-US-0402-SQUARE" description=""/>
+      <property name="LCSC" value="C25091"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c10387c-3cac-4a7c-bbfb-95d69f41a890</tstamps>
+    </comp>
+    <comp ref="X2">
+      <value>SMA--BU-SMA-H</value>
+      <footprint>Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal</footprint>
+      <datasheet>https://pl.rs-online.com/web/p/zlacza-koncentryczne/7595306</datasheet>
+      <fields>
+        <field name="LCSC">C1509230</field>
+      </fields>
+      <libsource lib="diff-probe-eagle-import" part="SMA--BU-SMA-H" description=""/>
+      <property name="LCSC" value="C1509230"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="diff-probe.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78a228c9-bbf0-49cf-b917-2dec23b390df</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="diff-probe-eagle-import" part="C-EU-0402-SQUARE">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-EU-0402-SQUARE</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="1" type="passive"/>
+        <pin num="P$2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="diff-probe-eagle-import" part="C-EU-0603">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-EU-0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="diff-probe-eagle-import" part="HEADER-1X2CARD-EDGE">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER-1X2CARD-EDGE</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="1" type="passive"/>
+        <pin num="P$2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="diff-probe-eagle-import" part="OP-AMP-8-TI">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">OP-AMP-8-TI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="bidirectional"/>
+        <pin num="2" name="-IN" type="input"/>
+        <pin num="3" name="+IN" type="input"/>
+        <pin num="4" name="-VS1" type="power_in"/>
+        <pin num="5" name="-VS2" type="bidirectional"/>
+        <pin num="6" name="OUT" type="output"/>
+        <pin num="7" name="+VS1" type="power_in"/>
+        <pin num="8" name="A" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="diff-probe-eagle-import" part="R-US-0402-SQUARE">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US-0402-SQUARE</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="1" type="passive"/>
+        <pin num="P$2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="diff-probe-eagle-import" part="SMA--BU-SMA-H">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SMA--BU-SMA-H</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="2" type="passive"/>
+        <pin num="4" name="2" type="passive"/>
+        <pin num="5" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="diff-probe-eagle-import">
+      <uri>C:\Users\rwache\OneDrive - Rockwell Automation, Inc\project\debug_tools\diff-probe\kicad/diff-probe-eagle-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/NEGIN">
+      <node ref="IC5" pin="3" pinfunction="+IN" pintype="input"/>
+      <node ref="R28" pin="P$2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/NEGMID">
+      <node ref="IC4" pin="2" pinfunction="-IN" pintype="input"/>
+      <node ref="R32" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="R38" pin="P$1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/NegIn1">
+      <node ref="IC5" pin="6" pinfunction="OUT" pintype="output"/>
+      <node ref="R32" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="R37" pin="P$2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/NegPad">
+      <node ref="J3" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="R28" pin="P$1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/OUT">
+      <node ref="IC4" pin="6" pinfunction="OUT" pintype="output"/>
+      <node ref="R30" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="R38" pin="P$2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/OutPad">
+      <node ref="R30" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="X2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/POSIN">
+      <node ref="IC3" pin="3" pinfunction="+IN" pintype="input"/>
+      <node ref="R20" pin="P$2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/POSMID">
+      <node ref="IC4" pin="3" pinfunction="+IN" pintype="input"/>
+      <node ref="R22" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="R26" pin="P$1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/PosIn1">
+      <node ref="IC3" pin="6" pinfunction="OUT" pintype="output"/>
+      <node ref="R22" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="R27" pin="P$2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="10" name="/PosPad">
+      <node ref="J3" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="R20" pin="P$1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/offset">
+      <node ref="C1" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R26" pin="P$2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="C13" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="C14" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="C15" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="C16" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="C17" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="C18" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="C19" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="C20" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="C21" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="C22" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="C23" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="C24" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="C52" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C54" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="X2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="X2" pin="3" pinfunction="2" pintype="passive"/>
+      <node ref="X2" pin="4" pinfunction="2" pintype="passive"/>
+      <node ref="X2" pin="5" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(IC3-Pad2)">
+      <node ref="IC3" pin="2" pinfunction="-IN" pintype="input"/>
+      <node ref="R27" pin="P$1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(IC5-Pad2)">
+      <node ref="IC5" pin="2" pinfunction="-IN" pintype="input"/>
+      <node ref="R37" pin="P$1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="V+">
+      <node ref="C13" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="C14" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="C15" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="C16" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="C17" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="C18" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="C52" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="IC3" pin="7" pinfunction="+VS1" pintype="power_in"/>
+      <node ref="IC4" pin="7" pinfunction="+VS1" pintype="power_in"/>
+      <node ref="IC5" pin="7" pinfunction="+VS1" pintype="power_in"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="16" name="V-">
+      <node ref="C19" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="C20" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="C21" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="C22" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="C23" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="C24" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="C54" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="IC3" pin="4" pinfunction="-VS1" pintype="power_in"/>
+      <node ref="IC4" pin="4" pinfunction="-VS1" pintype="power_in"/>
+      <node ref="IC5" pin="4" pinfunction="-VS1" pintype="power_in"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(IC3-Pad1)">
+      <node ref="IC3" pin="1" pinfunction="C" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="unconnected-(IC3-Pad5)">
+      <node ref="IC3" pin="5" pinfunction="-VS2" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="unconnected-(IC3-Pad8)">
+      <node ref="IC3" pin="8" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(IC4-Pad1)">
+      <node ref="IC4" pin="1" pinfunction="C" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="unconnected-(IC4-Pad5)">
+      <node ref="IC4" pin="5" pinfunction="-VS2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="unconnected-(IC4-Pad8)">
+      <node ref="IC4" pin="8" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="unconnected-(IC5-Pad1)">
+      <node ref="IC5" pin="1" pinfunction="C" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(IC5-Pad5)">
+      <node ref="IC5" pin="5" pinfunction="-VS2" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(IC5-Pad8)">
+      <node ref="IC5" pin="8" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="28" name="unconnected-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+  </nets>
+</export>

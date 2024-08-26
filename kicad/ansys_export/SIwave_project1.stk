@@ -1,0 +1,32 @@
+$begin 'StackupLayers'
+	Units('mm')
+	$begin 'Layers'
+		Layer(LayerID=1, LayerName='DIELECTRIC-2', LayerType=1, IsNegative=true, Material='SolderMask', Elevation=1.595, Thickness=0.015, TopRoughness=0, BottomRoughness=0, SideRoughness=0, IsTopRoughnessHuray=false, IsBottomRoughnessHuray=false, IsSideRoughnessHuray=false, TopRoughnessHurayModel='', BottomRoughnessHurayModel='', SideRoughnessHurayModel='', DefinedDielectricFill='', TraceCrossSectionShape=0, TraceCrossSectionEtchStyle=0, TraceCrossSectionTopEdgeRatio=1, TraceCrossSectionBottomEdgeRatio=1, IsUserDefinedAbsValForTCS=false, AbsValueOfTopWidthForTCS=0, AbsValueOfBotWidthForTCS=0, IsThicknessInvolvedForTCS=true, Color(127, 127, 127))
+		Layer(LayerID=2, LayerName='TOP', LayerType=2, IsNegative=true, Material='copper', Elevation=1.56, Thickness=0.035, TopRoughness=0, BottomRoughness=0, SideRoughness=0, IsTopRoughnessHuray=false, IsBottomRoughnessHuray=false, IsSideRoughnessHuray=false, TopRoughnessHurayModel='', BottomRoughnessHurayModel='', SideRoughnessHurayModel='', DefinedDielectricFill='FR4_epoxy', TraceCrossSectionShape=0, TraceCrossSectionEtchStyle=0, TraceCrossSectionTopEdgeRatio=1, TraceCrossSectionBottomEdgeRatio=1, IsUserDefinedAbsValForTCS=false, AbsValueOfTopWidthForTCS=0, AbsValueOfBotWidthForTCS=0, IsThicknessInvolvedForTCS=true, Color(196, 171, 30))
+		Layer(LayerID=3, LayerName='DIELECTRIC-1', LayerType=0, IsNegative=true, Material='FR4_epoxy', Elevation=0.05, Thickness=1.51, TopRoughness=0, BottomRoughness=0, SideRoughness=0, IsTopRoughnessHuray=false, IsBottomRoughnessHuray=false, IsSideRoughnessHuray=false, TopRoughnessHurayModel='', BottomRoughnessHurayModel='', SideRoughnessHurayModel='', DefinedDielectricFill='', TraceCrossSectionShape=0, TraceCrossSectionEtchStyle=0, TraceCrossSectionTopEdgeRatio=1, TraceCrossSectionBottomEdgeRatio=1, IsUserDefinedAbsValForTCS=false, AbsValueOfTopWidthForTCS=0, AbsValueOfBotWidthForTCS=0, IsThicknessInvolvedForTCS=true, Color(127, 127, 127))
+		Layer(LayerID=4, LayerName='Bottom', LayerType=2, IsNegative=true, Material='copper', Elevation=0.015, Thickness=0.035, TopRoughness=0, BottomRoughness=0, SideRoughness=0, IsTopRoughnessHuray=false, IsBottomRoughnessHuray=false, IsSideRoughnessHuray=false, TopRoughnessHurayModel='', BottomRoughnessHurayModel='', SideRoughnessHurayModel='', DefinedDielectricFill='SolderMask', TraceCrossSectionShape=0, TraceCrossSectionEtchStyle=0, TraceCrossSectionTopEdgeRatio=1, TraceCrossSectionBottomEdgeRatio=1, IsUserDefinedAbsValForTCS=false, AbsValueOfTopWidthForTCS=0, AbsValueOfBotWidthForTCS=0, IsThicknessInvolvedForTCS=true, Color(152, 143, 192))
+		Layer(LayerID=5, LayerName='DIELECTRIC-3', LayerType=1, IsNegative=true, Material='SolderMask', Elevation=0, Thickness=0.015, TopRoughness=0, BottomRoughness=0, SideRoughness=0, IsTopRoughnessHuray=false, IsBottomRoughnessHuray=false, IsSideRoughnessHuray=false, TopRoughnessHurayModel='', BottomRoughnessHurayModel='', SideRoughnessHurayModel='', DefinedDielectricFill='', TraceCrossSectionShape=0, TraceCrossSectionEtchStyle=0, TraceCrossSectionTopEdgeRatio=1, TraceCrossSectionBottomEdgeRatio=1, IsUserDefinedAbsValForTCS=false, AbsValueOfTopWidthForTCS=0, AbsValueOfBotWidthForTCS=0, IsThicknessInvolvedForTCS=true, Color(127, 127, 127))
+	$end 'Layers'
+	$begin 'Materials'
+	$end 'Materials'
+	$begin 'HurayModels'
+		$begin 'HurayModel'
+			ModelName='Low Loss'
+			MetalSphereRadius=0.0005
+			UnitCellArea=1e-06
+			SpheresPerUnitCell=0.3183098861837906
+		$end 'HurayModel'
+		$begin 'HurayModel'
+			ModelName='Medium Loss'
+			MetalSphereRadius=0.0005
+			UnitCellArea=1e-06
+			SpheresPerUnitCell=0.954929658551372
+		$end 'HurayModel'
+		$begin 'HurayModel'
+			ModelName='High Loss'
+			MetalSphereRadius=0.0005
+			UnitCellArea=1e-06
+			SpheresPerUnitCell=1.909859317102744
+		$end 'HurayModel'
+	$end 'HurayModels'
+$end 'StackupLayers'

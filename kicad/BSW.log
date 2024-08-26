@@ -1,0 +1,6 @@
+2023-01-02 16:48:39 2256     [INFO] ****** HyperLynx VX2.10 build 19821586 
+2023-01-02 16:48:39 2256     [INFO]        C:\MentorGraphics64\HLVX.2.10\SDD_HOME\hyperlynx64\BSW.EXE /dde 
+2023-01-02 16:48:50 2256     [INFO] Opening Project C:\Users\rwache\OneDrive - Rockwell Automation, Inc\project\debug_tools\diff-probe\kicad\diff-probe.hyp
+2023-01-02 16:48:50 2256    [ERROR] Error: Error opening input file C:\Users\rwache\OneDrive - Rockwell Automation, Inc\project\debug_tools\diff-probe\kicad\diff-probe.hyp : The system cannot find the file specified.
+2023-01-02 16:48:55 2256    [ERROR] Error opening board: diff-probe.hyp <C:\Users\rwache\OneDrive - Rockwell Automation, Inc\project\debug_tools\diff-probe\kicad\>
+2023-01-02 16:49:16 2256     [INFO] ****** Closing HyperLynx 
